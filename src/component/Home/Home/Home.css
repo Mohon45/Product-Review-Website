@@ -1,0 +1,35 @@
+.body-style{
+    background-color: #FDFAF0;
+}
+.single-card img{
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+}
+.category{
+    color: #F85606;
+}
+.description{
+    text-align: justify;
+}
+.price{
+    color: #F85606;
+}
+.hover-effect:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    -webkit-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+    z-index: 2;
+}
+.btn-style{
+    text-decoration: none;
+    background-color: #F85606;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+}
